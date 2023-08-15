@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulário de Cadastro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <img id="petshop" src="peshop.jpg">
+        <img id="cachorro" src="cachorro.jpg">
+        
+        <img id="gato" src="gato.jpg">
+        <header id="corpo">
+        <div class="cabecalho">
+            <h1>Cadastro do Pet</h1>
+            <p>Preencha os dados abaixo</p>
+        </div>
+        <section id="form">
+        <form id="humano">
+            <fieldset id="dono">
+                <div class="nome">
+                    <label><b>Nome do dono:</b></label>
+                    <input name="nome" type="text" id="name" placeholder="Nome do humano">
+                </div>
+                <div class="endereco">
+                        <label><b>Endereço:</b></label>
+                        <input type="text" name="end" id="end" placeholder="ex. Avenida Agamenon">
+                </div>
+                <div class="data">
+                    <label><b>Data de nascimento:</b></label>
+                    <input type="date" name="data" id="data">
+                </div>
+                <div class="estado">
+                    <label><b>Estado:</b></label>
+                    <input type="text" name="est" id="est" placeholder="Pernambuco">
+                </div>
+                <div class="cidade">
+                    <label><b>Cidade:</b></label>
+                    <input type="text" name="cid" id="cid" placeholder="Recife">
+                </div>
+                <div class="pais">
+                    <label><b>País:</b></label>
+                    <input type="text" name="pais" id="pais" placeholder="Brasil">
+                </div>
+                
+            </fieldset>
+        </form>
+        <aside>
+        <form id="animal">
+            <fieldset id="pet">
+                <div>
+                    <label><b>Nome do Pet:</b></label>
+                    <input type="text" name="nome" id="nomePet" placeholder="Nome do Pet">
+                </div>
+                <div>
+                    <label><b>Idade do Pet:</b></label>
+                    <input type="number" min="0" max="20" name="idade" id="idade">
+                </div>
+                <div>
+                    <label><b>Pedigree:</b></label>
+                    <input type="radio" id="sim" name="pedigree" value="Sim" 
+                           checked>
+                    <label class="opcao" for="sim"><b>Sim</b></label>
+                
+                    <input type="radio" id="nao" name="pedigree" value="Nao">
+                    <label class="opcao" for="nao"><b>Não</b></label>
+                  </div>
+                <div>
+                    <label><b>Data de nascimento do Pet:</b></label>
+                    <input type="date" name="dataPet" id="dataPet">
+                </div>
+                <div>
+                    <label><b>Raça:</b></label>
+                    <input type="text" name="raca" id="raca" placeholder="Pitbull, Dalmata...">
+                </div>
+                <div>
+                    <label><b>Adoção ou Compra:</b></label>
+                    
+                        <input type="radio" id="adocao" name="adocaoOuCompra" value="adocao"
+                               checked>
+                        <label class="opcao" for="adocao"><b>Adoção</b></label>
+                     
+                  
+                      
+                        <input type="radio" id="compra" name="adocaoOuCompra" value="compra">
+                        <label class="opcao" for="compra"><b>Compra</b></label>
+                      
+                </div>
+                </fieldset>
+            
+                  </div>
+                  
+        </form>
+        </aside>
+        </section>
+        
+        <fieldset id="enviar">
+            <div class="box-1">
+                <div class="btn btn-one">
+                  <span><b>Enviar</b></span>
+                </div>
+        </fielset>
+    </header>
+
+
+    </body>
+</html>
